@@ -85,6 +85,10 @@ class UserHelper extends Base
     {
         return $this->userSession->isAdmin();
     }
+public function isUser()
+    {
+        return $this->userSession->isUser();
+    }
 
     /**
      * Get role name
